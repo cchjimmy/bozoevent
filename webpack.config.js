@@ -4,7 +4,7 @@ module.exports = {
   output: {
     library: {
       type: "umd",
-      name: "eventjs"
+      name: "bozoevent"
     }
   },
 }
