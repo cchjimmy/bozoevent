@@ -1,0 +1,15 @@
+{
+  "name": "eventjs",
+  "version": "1.0.0",
+  "description": "simple event system written in javascript",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "cchjimmy",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2"
+  }
+}
