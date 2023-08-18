@@ -1,6 +1,6 @@
 {
   "name": "bozoevent",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "simple event system written in javascript",
   "main": "./dist/main.js",
   "scripts": {
@@ -8,8 +8,5 @@
     "build": "webpack --config webpack.config.js"
   },
   "author": "cchjimmy",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack": "^5.88.2"
-  }
+  "license": "ISC"
 }
