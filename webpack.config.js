@@ -1,5 +1,5 @@
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/main.js",
   output: {
     library: {
