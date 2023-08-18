@@ -1,8 +1,8 @@
 {
   "name": "bozoevent",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "simple event system written in javascript",
-  "main": "./dist/main.js",
+  "main": "./dist/bozoevent.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
