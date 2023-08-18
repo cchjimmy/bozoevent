@@ -1,6 +1,6 @@
 {
   "name": "bozoevent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple event system written in javascript",
   "main": "./dist/main.js",
   "scripts": {
