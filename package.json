@@ -1,12 +1,15 @@
 {
   "name": "bozoevent",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "simple event system written in javascript",
-  "main": "main.js",
+  "main": "./dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
   },
   "author": "cchjimmy",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2"
+  }
 }
