@@ -33,15 +33,14 @@ module.exports = (function () {
     },
 
     executeEvents() {
-      for (let i = 0; i < eventStack.length; i++) {
+      for (let i = eventStack.length - 1; i >= 0; i--) {
         let callbacks = eventCallbacks[eventStack[i]];
         let event = events[eventStack[i]];
         for (let id in callbacks) {
           callbacks[id](event);
         }
         // have to free up the stack regardless the number of listeners
-        eventStack.splice(i, 1);
-        i--;
+        eventStack.pop();
       }
     }
   };
